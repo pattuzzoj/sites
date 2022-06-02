@@ -194,18 +194,3 @@ footer > div > div {
     flex-direction: column;
     justify-content: space-between;
 }
-
-footer ul {
-    flex-direction: column;
-    flex-wrap: wrap;
-    height: 150px;
-}
-
-footer li {
-    margin-bottom: 1rem;
-    margin-left: 5rem;
-}
-
-#footer-copy {
-    padding: 2% 5%;
-}
