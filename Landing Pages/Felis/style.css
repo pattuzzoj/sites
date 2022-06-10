@@ -168,7 +168,7 @@ header a {
 
 #sec5-form {border-bottom: 1px solid #1D1B19;}
 
-#sec5-form input[type="email"] {width: 30rem;}
+#sec5-form input[type="email"] {min-width: 30rem;}
 
 #sec5-form input[type="submit"] {cursor: pointer;}
 
