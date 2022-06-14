@@ -1,0 +1,45 @@
+* {
+    box-sizing: border-box;
+    vertical-align: baseline;
+    margin: 0;
+    border: none;
+}
+
+@font-face {
+    font-family: Poppins;
+    src: url(fonts/Poppins-Regular.ttf);
+}
+
+@font-face {
+    font-family: Volkov;
+    src: url(fonts/Volkhov-Regular.ttf);
+}
+
+h1 {
+    font-size: 64px;
+}
+
+h2 {
+    font-size: 48px;
+}
+
+h3 {
+    font-size: 24px;
+}
+
+p {
+    font-size: 16px;
+}
+
+nav {
+    font-size: 16px;
+}
+
+:root {
+    --black: #222222;
+    --black-sec: #444444;
+    --black-mid: #666666;
+    --orange: #FA7436;
+    --white: #FEFCFB;
+    --ice: #F7F8FC;
+}
