@@ -8,85 +8,87 @@
     <link rel="stylesheet" href="style.css">
 </head>
 <body>
-    <header>
-        <img src="images/logo.svg" alt="">
-        <nav>
-            <a href="#">Home</a>
-            <a href="#">About</a>
-            <a href="#">Destination</a>
-            <a href="#">Tour</a>
-            <a href="#">Blog</a>
+    <header id="header" class="flex">
+        <span id="logo">Trabook <img src="images/logo.svg" alt=""></span>
+        
+        <nav id="nav">
+            <a class="nav__option" href="#">Home</a>
+            <a class="nav__option" href="#">About</a>
+            <a class="nav__option" href="#">Destination</a>
+            <a class="nav__option" href="#">Tour</a>
+            <a class="nav__option" href="#">Blog</a>
         </nav>
 
         <div role="group">
-            <a href="#">Login</a>
-            <a href="#">Sign up</a>
+            <a class="orange" href="#">Login</a>
+            <a class="btn btn_sign btn_w-back btn_shadow m-left" href="#">Sign up</a>
         </div>
     </header>
 
-    <main>
-        <section>
-            <div>
+    <main id="main">
+        <section id="sec1">
+            <div class="flex">
                 <div>
-                    <h1>Get started your exciting <span>journey</span> with us.</h1>
-                    <p>A Team of experienced tourism professionals will provide you with the best advice and tips for your desire place.</p>
-
-                    <a href="#">Discover Now</a>
+                    <article>
+                        <h1>Get started your exciting <span class="orange">journey</span> with us.<h1>
+                        <p>A Team of experienced tourism professionals will provide you with the best advice and tips for your desire place.</p>
+                    </article>
+                    <a class="btn btn_n-back orange" href="#">Discover Now</a>
                 </div>
+    
+                <img class="section__img m-left" src="images/man-with-bag.svg" alt="">
+            </div>
 
-                <div>
-                    <div>Location <img src="images/seta.svg" alt="">
-                    Where are you going</div>
-                    <div>Date <img src="images/seta.svg" alt="">
-                    When you will go</div>
-                    <div>Guest <img src="images/seta.svg" alt="">
-                    Number of guest</div>
-                    <a href="#">Explore Now</a>
+            <div class="flex flex-center">
+                <div id="teste" class="flex box_shadow">
+                    <div>
+                        <h6>Location <img src="images/seta.svg" alt=""></h6>
+                        <small>Where are you going</small>
+                    </div>
+                    <div>
+                        <h6>Date <img src="images/seta.svg" alt=""></h6>
+                        <small>When you will go</small>
+                    </div>
+                    <div>
+                        <h6>Guest <img src="images/seta.svg" alt=""></h6>
+                        <small>Number of guest</small>
+                    </div>
+                    <a class="btn btn_w-back" href="#">Explore Now</a>
                 </div>
             </div>
+        </section>
+
+        <section id="sec2" class="flex">
+            <div>
+                <h2>Things you need <span class="orange">to do</span></h2>
+                <p>We ensure that you'll embark an a perfectly planned,<br>safe vacation at a price you can afford</p>
+            </div>
+            <div class="flex flex-tes">
+                <div class="tes box_shadow">
+                    <img src="images/sign-icon.svg" alt="">
+                    <h4>Sign Up</h4>
+                    <p>Completes all the work associated with planning and processing</p>
+                </div>
+                <div class="tes box_shadow">
+                    <img src="images/money-icon.svg" alt="">
+                    <h4>Worth of Money</h4>
+                    <p>After successful access then book from exclusive deals & pricing</p>
+                </div>
+                <div class="tes box_shadow">
+                    <img src="images/travel-icon.svg" alt="">
+                    <h4>Exciting Travel</h4>
+                    <p>Start and explore a wide range of exciting travel experience</p>
+                </div>
+            </div>
+        </section>
+        <section id="sec3">
             
-            <div>
-                <img src="images/man-with-bag.svg" alt="">
-            </div>
         </section>
-
-        <section>
-            <h2>Things you need<span>to do</span></h2>
-            <div><img src="images/sign-icon.svg" alt=""></div>
-            <div><img src="images/money-icon.svg" alt=""></div>
-            <div><img src="images/travel-icon.svg" alt=""></div>
-        </section>
-
-        <section>
-            <h2>Exclusive<span>deals & discounts</span></h2>
-            <div><img src="images/madrid.svg" alt=""></div>
-            <div><img src="images/firenze.svg" alt=""></div>
-            <div><img src="images/paris.svg" alt=""></div>
-            <div><img src="images/london.svg" alt=""></div>
-        </section>
-
-        <section>
-            <h2>Best<span>vacation plan</span></h2>
-            <div><img src="images/Rome.svg" alt=""></div>
-            <div><img src="images/UK.svg" alt=""></div>
-            <div><img src="images/Japan.svg" alt=""></div>
-        </section>
-
-        <section>
-            <h2>What people say<span>about us</span></h2>
-        </section>
-
-        <section>
-            <h2>Get update with<span>latest blog</span></h2>
-            <div>
-                <div><img src="images/Amazin.svg" alt=""></div>
-                <div><img src="images/yourself.svg" alt=""></div>
-                <div><img src="images/africa.svg" alt=""></div>
-                <div><img src="images/reflections.svg" alt=""></div>
-            </div>
-        </section>
+        <section id="sec4"></section>
+        <section id="sec5"></section>
+        <section id="sec6"></section>
     </main>
 
-    <footer></footer>
+    <footer id="footer"></footer>
 </body>
 </html>

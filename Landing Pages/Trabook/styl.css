@@ -1,0 +1,143 @@
+* {
+    box-sizing: border-box;
+    vertical-align: baseline;
+    margin: 0;
+    border: none;
+}
+
+@font-face {
+    font-family: Poppins;
+    src: url(fonts/Poppins-Regular.ttf);
+}
+
+@font-face {
+    font-family: Volkov;
+    src: url(fonts/Volkhov-Regular.ttf);
+}
+
+h1, h2 {
+    font-family: Volkov;
+}
+
+p, a {font-family: Poppins;}
+
+h1 {
+    font-size: 64px;
+}
+
+h2 {
+    font-size: 48px;
+}
+
+h3 {
+    font-size: 24px;
+}
+
+p {
+    font-size: 16px;
+}
+
+nav {
+    font-size: 16px;
+}
+
+:root {
+    --black: #222222;
+    --black-sec: #444444;
+    --black-mid: #666666;
+    --orange: #FA7436;
+    --white: #fefcfb;
+    --ice: #F7F8FC;
+}
+
+.orange {
+    color: var(--orange);
+}
+
+.div-50 {
+    width: 50%;
+}
+
+.flex-container {
+    display: flex;
+    align-items: center;
+}
+
+.flex-center {
+    justify-content: center;
+}
+
+.flex-col {flex-direction: column;}
+
+body {
+    overflow-x: hidden;
+    padding: 20px 50px;
+}
+
+header.flex-container {justify-content: space-between;}
+
+nav a {
+    margin: 0 15px;
+}
+
+a {
+    text-decoration: none;
+    color: var(--black);
+}
+
+#logo {
+    font-size: 24px;
+    font-family: Volkov;
+}
+
+.btn {
+    border: 1px solid var(--orange);
+    border-radius: 5px;
+    padding: 12px 24px;
+    background-color: var(--orange);
+    color: var(--white);
+}
+
+.btn:hover {
+    background-color: transparent;
+    color: var(--orange);
+}
+
+.no-back {
+    padding: 14px 24px;
+    border: 1px solid var(--orange);
+    background-color: transparent;
+    color: var(--orange);
+}
+
+.no-back:hover {
+    background-color: var(--orange);
+    color: var(--white);
+}
+
+#sign {
+    margin-left: 50px;
+    padding: 12px 50px;
+    box-shadow: 0 10px 20px 0px #FA743655;
+}
+
+section {
+    padding: 50px 0;
+}
+
+section:nth-child(odd) {background-color: var(--white);}
+section:nth-child(even) {background-color: var(--ice);}
+
+#opt2 {
+    font-family: Poppins;
+    justify-content: space-between;
+    width: 800px;
+    border-radius: 5px;
+    padding: 20px;
+    background-color: #ffffff;
+    box-shadow: 0 0 20px 0px rgba(0, 0, 0, 0.08);
+}
+
+#opt2 span {
+    font-weight: 600;
+}
