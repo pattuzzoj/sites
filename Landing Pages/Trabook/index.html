@@ -8,253 +8,332 @@
     <link rel="stylesheet" href="style.css">
 </head>
 <body>
-    <header id="header" class="flex">
-        <span id="logo">Trabook <img src="images/logo.svg" alt=""></span>
+    <div id="rota">
+        <header id="header" class="flex">
+            <span id="logo">Trabook <img src="images/logo.svg" alt=""></span>
+            
+            <nav id="nav">
+                <a class="nav__option" href="#">Home</a>
+                <a class="nav__option" href="#">About</a>
+                <a class="nav__option" href="#">Destination</a>
+                <a class="nav__option" href="#">Tour</a>
+                <a class="nav__option" href="#">Blog</a>
+            </nav>
+    
+            <div role="group">
+                <a class="orange" href="#">Login</a>
+                <a id="btn_sign" class="btn btn_w-back btn_shadow" href="#">Sign up</a>
+            </div>
+        </header>
+    
+        <main id="main">
+            <section id="sec1">
+                <div class="flex">
+                    <div>
+                        <article>
+                            <h1>Get started your exciting <span class="orange">journey</span> with us.<h1>
+                            <p>A Team of experienced tourism professionals will provide you with the best advice and tips for your desire place.</p>
+                        </article>
+                        <a class="btn btn_n-back orange" href="#">Discover Now</a>
+                    </div>
         
-        <nav id="nav">
-            <a class="nav__option" href="#">Home</a>
-            <a class="nav__option" href="#">About</a>
-            <a class="nav__option" href="#">Destination</a>
-            <a class="nav__option" href="#">Tour</a>
-            <a class="nav__option" href="#">Blog</a>
-        </nav>
-
-        <div role="group">
-            <a class="orange" href="#">Login</a>
-            <a id="btn_sign" class="btn btn_w-back btn_shadow" href="#">Sign up</a>
-        </div>
-    </header>
-
-    <main id="main">
-        <section id="sec1">
-            <div class="flex">
-                <div>
-                    <article>
-                        <h1>Get started your exciting <span class="orange">journey</span> with us.<h1>
-                        <p>A Team of experienced tourism professionals will provide you with the best advice and tips for your desire place.</p>
-                    </article>
-                    <a class="btn btn_n-back orange" href="#">Discover Now</a>
+                    <img class="sec1__img" src="images/man-with-bag.svg" alt="">
                 </div>
     
-                <img class="sec1__img" src="images/man-with-bag.svg" alt="">
+                <div class="flex flex-center">
+                    <div class="sec1__card flex box_shadow">
+                        <div>
+                            <h6>Location <img src="images/seta.svg" alt=""></h6>
+                            <small>Where are you going</small>
+                        </div>
+                        <div>
+                            <h6>Date <img src="images/seta.svg" alt=""></h6>
+                            <small>When you will go</small>
+                        </div>
+                        <div>
+                            <h6>Guest <img src="images/seta.svg" alt=""></h6>
+                            <small>Number of guest</small>
+                        </div>
+                        <a class="btn btn_w-back" href="#">Explore Now</a>
+                    </div>
+                </div>
+            </section>
+    
+            <section id="sec2" class="flex">
+                <div>
+                    <h2>Things you need <span class="orange">to do</span></h2>
+                    <p>We ensure that you'll embark an a perfectly planned,<br>safe vacation at a price you can afford.</p>
+                </div>
+                <div class="flex sec2__cardbox">
+                    <div class="sec2__card box_shadow">
+                        <div>
+                            <img src="images/sign-icon.svg" alt="">
+                            <h4>Sign Up</h4>
+                            <p>Completes all the work associated with planning and processing</p>
+                        </div>
+                        <img src="images/vector-orange.svg" alt="">
+                    </div>
+                    <div class="sec2__card box_shadow">
+                        <div>
+                            <img src="images/money-icon.svg" alt="">
+                            <h4>Worth of Money</h4>
+                            <p>After successful access then book from exclusive deals & pricing</p>
+                        </div>
+                        <img src="images/vector-blue.svg" alt="">
+                    </div>
+                    <div class="sec2__card box_shadow">
+                        <div>
+                            <img src="images/travel-icon.svg" alt="">
+                            <h4>Exciting Travel</h4>
+                            <p>Start and explore a wide range of exciting travel experience</p>
+                        </div>
+                        <img src="images/vector-yellow.svg" alt="">
+                    </div>
+                </div>
+            </section>
+            <section id="sec3">
+                <div>
+                    <h2>Exclusive <span class="orange">deals & discounts</span></h2>
+                    <p>Discover our fantastic early booking discounts<br> & start planning your journey.</p>
+                </div>
+                <div class="flex flex-space">
+                    <div class="sec3__card box_shadow">
+                        <img src="images/madrid.svg" alt="">
+                        <a class="btn btn_w-back-n-hover" href="#">Book Now</a>
+                        <div>
+                            <div class="flex flex-space">
+                                <h4>Madrid</h4>
+                                <span class="flex"><img src="images/star-icon.svg" alt="">&nbsp; 4.8</span>
+                            </div>
+                            
+                            <div class="flex flex-space">
+                                <span><img src="images/mark-icon.svg" alt=""> Spain</span>
+                                <span><del>$950</del>&nbsp; <span class="orange">$850</span></span>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="sec3__card box_shadow">
+                        <img src="images/firenze.svg" alt="">
+                        <a class="btn btn_w-back-n-hover" href="#">Book Now</a>
+                        <div>
+                            <div class="flex flex-space">
+                                <h4>Firenze</h4>
+                                <span class="flex"><img src="images/star-icon.svg" alt="">&nbsp; 4.5</span>
+                            </div>
+                            
+                            <div class="flex flex-space">
+                                <span><img src="images/mark-icon.svg" alt=""> Italy</span>
+                                <span><del>$850</del>&nbsp; <span class="orange">$750</span></span>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="sec3__card box_shadow">
+                        <img src="images/paris.svg" alt="">
+                        <a class="btn btn_w-back-n-hover" href="#">Book Now</a>
+                        <div>
+                            <div class="flex flex-space">
+                                <h4>Paris</h4>
+                                <span class="flex"><img src="images/star-icon.svg" alt="">&nbsp; 4.4</span>
+                            </div>
+                            
+                            <div class="flex flex-space">
+                                <span><img src="images/mark-icon.svg" alt=""> France</span>
+                                <span><del>$699</del>&nbsp; <span class="orange">$599</span></span>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="sec3__card box_shadow">
+                        <img src="images/london.svg" alt="">
+                        <a class="btn btn_w-back-n-hover" href="#">Book Now</a>
+                        <div>
+                            <div class="flex flex-space">
+                                <h4>London</h4>
+                                <span class="flex"><img src="images/star-icon.svg" alt="">&nbsp; 4.8</span>
+                            </div>
+                            
+                            <div class="flex flex-space">
+                                <span><img src="images/mark-icon.svg" alt=""> UK</span>
+                                <span><del>$950</del>&nbsp; <span class="orange">$850</span></span>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div></div>
+            </section>
+            <section id="sec4">
+                <div>
+                    <h2>Best <span class="orange">vacation plan</span></h2>
+                    <p>Plan your perfect vacation with our travel agency. Choose<br> Choose among hundreds of all-inclusive offers!</p>
+                </div>
+                <div></div>
+                <div class="flex flex-space">
+                    <div class="sec3__card box_shadow">
+                        <img src="images/madrid.svg" alt="">
+                        <div>
+                            <div class="flex flex-space">
+                                <h4>Rome, Italty</h4>
+                                <span class="orange flex">$5,42k</span>
+                            </div>
+                            
+                            <div class="flex flex-space">
+                                <span class="flex"><img src="images/arrow-icon.svg" alt="">&nbsp; 10 Days Trip</span>
+                                <span class="flex"><img src="images/star-icon.svg" alt="">&nbsp; 4.8</span>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="sec3__card box_shadow">
+                        <img src="images/firenze.svg" alt="">
+                        <div>
+                            <div class="flex flex-space">
+                                <h4>London, UK</h4>
+                                <span class="orange flex">$2,42k</span>
+                            </div>
+                            
+                            <div class="flex flex-space">
+                                <span class="flex"><img src="images/arrow-icon.svg" alt="">&nbsp; 7 Days Trip</span>
+                                <span class="flex"><img src="images/star-icon.svg" alt="">&nbsp; 4.7</span>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="sec3__card box_shadow">
+                        <img src="images/paris.svg" alt="">
+                        <div>
+                            <div class="flex flex-space">
+                                <h4>Osaka, Japan</h4>
+                                <span class="orange flex">$5,42k</span>
+                            </div>
+                            
+                            <div class="flex flex-space">
+                                <span class="flex"><img src="images/arrow-icon.svg" alt="">&nbsp; 10 Days Trip</span>
+                                <span class="flex"><img src="images/star-icon.svg" alt="">&nbsp; 4.8</span>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </section>
+            <section id="sec5" class="flex flex-space">
+                <div>
+                    <h2>What people say <span class="orange">about us</span></h2>
+                    <p>Our Clients send us bunch of smilies with our services and we love them.</p>
+                </div>
+                <div>
+                    <div></div>
+                    <div></div>
+                </div>
+            </section>
+            <section id="sec6">
+                <div>
+                    <h2>Get update with <span class="orange">lastest blog</span></h2>
+                </div>
+                <div></div>
+                <div class="flex flex-space">
+                    <div class="">
+                        <img src="images/Amazin.svg" alt="">
+                        <div>
+                            <h5>The Amazing Difference a <br> Year of Travelling.</h5>
+                            <span>July 27, 2021</span>
+                        </div>
+                    </div>
+                    <div class="">
+                        <img src="images/yourself.svg" alt="">
+                        <div>
+                            <h5>Travel for enough, you <br> meet yourself.</h5>
+                            <span>July 27, 2021</span>
+                        </div>
+                    </div>
+                    <div class="">
+                        <img src="images/africa.svg" alt="">
+                        <div>
+                            <h5>How to Save Money While <br> Visiting Africa.</h5>
+                            <span>July 27, 2021</span>
+                        </div>
+                    </div>
+                    <div class="">
+                        <img src="images/reflections.svg" alt="">
+                        <div>
+                            <h5>Reflections on 5 Months of <br> Travel: Time to Hang.</h5>
+                            <span>July 27, 2021</span>
+                        </div>
+                    </div>
+                </div>
+            </section>
+        </main>
+    
+        <footer id="footer">
+            <div>
+                <h2>Subscribe and get exclusive deals & offer</h2>
+                <form action="">
+                    <label for="email">
+                        <img src="images/email.svg" alt="Email">
+                    </label>
+                    <input id="email" type="email" placeholder="Enter your email" required>
+                    <button type="submit"></button>
+                </form>
             </div>
+            <div>
+                <div>
+                    <span id="logo">Trabook <img src="images/logo.svg" alt=""></span>
+                    <p>Book your trip in minute, get full<br>
+                        Control for much longer.</p>
+                    <div>
+                        <svg width="6" height="13" viewBox="0 0 6 13" fill="none" xmlns="http://www.w3.org/2000/svg">
+                            <path fill-rule="evenodd" clip-rule="evenodd" d="M5.54485 2.79909C5.2326 2.70031 4.8735 2.63445 4.54563 2.63445C4.1397 2.63445 3.26538 2.91434 3.26538 3.45765V4.75831H5.34189V6.94803H3.26538V12.9903H1.17327V6.94803H0.142822V4.75831H1.17327V3.65522C1.17327 1.99235 1.89146 0.609375 3.62448 0.609375C4.21776 0.609375 5.27943 0.642303 5.85711 0.856335L5.54485 2.79909Z" fill="#444444"/>
+                        </svg>
+                        <svg width="18" height="18" viewBox="0 0 18 18" fill="none" xmlns="http://www.w3.org/2000/svg">
+                            <g clip-path="url(#clip0_201_484)">
+                            <path d="M14.5667 0.933594H2.5C1.12167 0.933594 0 2.05526 0 3.43359V15.5003C0 16.8789 1.12167 18.0003 2.5 18.0003H14.5667C15.9453 18.0003 17.0667 16.8789 17.0667 15.5003V3.43359C17.0667 2.05526 15.9453 0.933594 14.5667 0.933594ZM16.0667 15.5003C16.0667 16.3273 15.3937 17.0003 14.5667 17.0003H2.5C1.673 17.0003 1 16.3273 1 15.5003V3.43359C1 2.60659 1.673 1.93359 2.5 1.93359H14.5667C15.3937 1.93359 16.0667 2.60659 16.0667 3.43359V15.5003Z" fill="white"/>
+                            <path d="M14.0334 2.9668C13.4821 2.9668 13.0334 3.41546 13.0334 3.9668C13.0334 4.51813 13.4821 4.9668 14.0334 4.9668C14.5848 4.9668 15.0334 4.51813 15.0334 3.9668C15.0334 3.41546 14.5848 2.9668 14.0334 2.9668Z" fill="#444444"/>
+                            <path d="M8.53345 4.9668C6.05211 4.9668 4.03345 6.98546 4.03345 9.4668C4.03345 11.9481 6.05211 13.9668 8.53345 13.9668C11.0148 13.9668 13.0334 11.9481 13.0334 9.4668C13.0334 6.98546 11.0148 4.9668 8.53345 4.9668ZM8.53345 12.9668C6.60345 12.9668 5.03345 11.3968 5.03345 9.4668C5.03345 7.5368 6.60345 5.9668 8.53345 5.9668C10.4634 5.9668 12.0334 7.5368 12.0334 9.4668C12.0334 11.3968 10.4634 12.9668 8.53345 12.9668Z" fill="#444444"/>
+                            </g>
+                            <defs>
+                            <clipPath id="clip0_201_484">
+                            <rect width="17.0667" height="17.0667" fill="#444444" transform="translate(0 0.933594)"/>
+                            </clipPath>
+                            </defs>
+                        </svg>
+                        <svg width="17" height="14" viewBox="0 0 17 14" fill="none" xmlns="http://www.w3.org/2000/svg">
+                            <path d="M16.317 2.15967C15.7365 2.4143 15.118 2.58308 14.4731 2.66503C15.1365 2.26893 15.6429 1.6465 15.8809 0.896252C15.2624 1.26503 14.5795 1.52552 13.8517 1.67089C13.2643 1.04552 12.4273 0.658203 11.5141 0.658203C9.7424 0.658203 8.31606 2.09625 8.31606 3.85918C8.31606 4.11284 8.33752 4.35674 8.3902 4.58893C5.72971 4.45918 3.37557 3.18406 1.7941 1.24162C1.51801 1.72064 1.35606 2.26893 1.35606 2.85918C1.35606 3.96747 1.92679 4.94991 2.77752 5.51869C2.26337 5.50893 1.75898 5.35967 1.33167 5.12454C1.33167 5.1343 1.33167 5.14698 1.33167 5.15967C1.33167 6.71479 2.44093 8.0065 3.89557 8.30406C3.63508 8.37528 3.35118 8.40942 3.05654 8.40942C2.85167 8.40942 2.64484 8.39772 2.45069 8.35479C2.86532 9.62211 4.04191 10.5538 5.44093 10.5841C4.35215 11.4358 2.96971 11.9489 1.47313 11.9489C1.21069 11.9489 0.958983 11.9372 0.707275 11.905C2.12484 12.8192 3.80484 13.3411 5.61654 13.3411C11.5053 13.3411 14.7248 8.46308 14.7248 4.23479C14.7248 4.09333 14.72 3.95674 14.7131 3.82113C15.3483 3.3704 15.8819 2.80747 16.317 2.15967Z" fill="#444444"/>
+                        </svg>
+                    </div>
+                </div>
+                <div class="flex">
+                    <div>
+                        <h5 id="company">Company</h5>
+                        <nav aria-labelledby="company">
+                            <a href="#">About</a>
+                            <a href="#">Careers</a>
+                            <a href="#">Logistic</a>
+                            <a href="#">Privacy & Policy</a>
+                        </nav>
+                    </div>
+                    <div>
+                        <h5 id="contact">Contact</h5>
+                        <nav aria-labelledby="contact">
+                            <a href="#">Help/FAQ</a>
+                            <a href="#">Press</a>
+                            <a href="#">Affilates</a>
+                        </nav>
+                    </div>
+                    <div>
+                        <h5 id="more">More</h5>
+                        <nav aria-labelledby="more">
+                            <a href="#">Press Centre</a>
+                            <a href="#">Our Blog</a>
+                            <a href="#">Low fare tips</a>
+                        </nav>
+                    </div>
+                </div>
+            </div>
+            <hr>
+            <div class="flex">
+                <p>Copyright, Trabook 2022. All rights reserved.</p>
+                <a href="#">Terms & Conditions</a>
+            </div>
+        </footer>
+    </div>
 
-            <div class="flex flex-center">
-                <div class="sec1__card flex box_shadow">
-                    <div>
-                        <h6>Location <img src="images/seta.svg" alt=""></h6>
-                        <small>Where are you going</small>
-                    </div>
-                    <div>
-                        <h6>Date <img src="images/seta.svg" alt=""></h6>
-                        <small>When you will go</small>
-                    </div>
-                    <div>
-                        <h6>Guest <img src="images/seta.svg" alt=""></h6>
-                        <small>Number of guest</small>
-                    </div>
-                    <a class="btn btn_w-back" href="#">Explore Now</a>
-                </div>
-            </div>
-        </section>
-
-        <section id="sec2" class="flex">
-            <div>
-                <h2>Things you need <span class="orange">to do</span></h2>
-                <p>We ensure that you'll embark an a perfectly planned,<br>safe vacation at a price you can afford.</p>
-            </div>
-            <div class="flex sec2__cardbox">
-                <div class="sec2__card box_shadow">
-                    <div>
-                        <img src="images/sign-icon.svg" alt="">
-                        <h4>Sign Up</h4>
-                        <p>Completes all the work associated with planning and processing</p>
-                    </div>
-                    <img src="images/vector-orange.svg" alt="">
-                </div>
-                <div class="sec2__card box_shadow">
-                    <div>
-                        <img src="images/money-icon.svg" alt="">
-                        <h4>Worth of Money</h4>
-                        <p>After successful access then book from exclusive deals & pricing</p>
-                    </div>
-                    <img src="images/vector-blue.svg" alt="">
-                </div>
-                <div class="sec2__card box_shadow">
-                    <div>
-                        <img src="images/travel-icon.svg" alt="">
-                        <h4>Exciting Travel</h4>
-                        <p>Start and explore a wide range of exciting travel experience</p>
-                    </div>
-                    <img src="images/vector-yellow.svg" alt="">
-                </div>
-            </div>
-        </section>
-        <section id="sec3">
-            <div>
-                <h2>Exclusive <span class="orange">deals & discounts</span></h2>
-                <p>Discover our fantastic early booking discounts<br> & start planning your journey.</p>
-            </div>
-            <div class="flex flex-space">
-                <div class="sec3__card box_shadow">
-                    <img src="images/madrid.svg" alt="">
-                    <a class="btn btn_w-back-n-hover" href="#">Book Now</a>
-                    <div>
-                        <div class="flex flex-space">
-                            <h4>Madrid</h4>
-                            <span class="flex"><img src="images/star-icon.svg" alt="">&nbsp; 4.8</span>
-                        </div>
-                        
-                        <div class="flex flex-space">
-                            <span><img src="images/mark-icon.svg" alt=""> Spain</span>
-                            <span><del>$950</del>&nbsp; <span class="orange">$850</span></span>
-                        </div>
-                    </div>
-                </div>
-                <div class="sec3__card box_shadow">
-                    <img src="images/firenze.svg" alt="">
-                    <a class="btn btn_w-back-n-hover" href="#">Book Now</a>
-                    <div>
-                        <div class="flex flex-space">
-                            <h4>Firenze</h4>
-                            <span class="flex"><img src="images/star-icon.svg" alt="">&nbsp; 4.5</span>
-                        </div>
-                        
-                        <div class="flex flex-space">
-                            <span><img src="images/mark-icon.svg" alt=""> Italy</span>
-                            <span><del>$850</del>&nbsp; <span class="orange">$750</span></span>
-                        </div>
-                    </div>
-                </div>
-                <div class="sec3__card box_shadow">
-                    <img src="images/paris.svg" alt="">
-                    <a class="btn btn_w-back-n-hover" href="#">Book Now</a>
-                    <div>
-                        <div class="flex flex-space">
-                            <h4>Paris</h4>
-                            <span class="flex"><img src="images/star-icon.svg" alt="">&nbsp; 4.4</span>
-                        </div>
-                        
-                        <div class="flex flex-space">
-                            <span><img src="images/mark-icon.svg" alt=""> France</span>
-                            <span><del>$699</del>&nbsp; <span class="orange">$599</span></span>
-                        </div>
-                    </div>
-                </div>
-                <div class="sec3__card box_shadow">
-                    <img src="images/london.svg" alt="">
-                    <a class="btn btn_w-back-n-hover" href="#">Book Now</a>
-                    <div>
-                        <div class="flex flex-space">
-                            <h4>London</h4>
-                            <span class="flex"><img src="images/star-icon.svg" alt="">&nbsp; 4.8</span>
-                        </div>
-                        
-                        <div class="flex flex-space">
-                            <span><img src="images/mark-icon.svg" alt=""> UK</span>
-                            <span><del>$950</del>&nbsp; <span class="orange">$850</span></span>
-                        </div>
-                    </div>
-                </div>
-            </div>
-            <div></div>
-        </section>
-        <section id="sec4">
-            <div>
-                <h2>Best <span class="orange">vacation plan</span></h2>
-                <p>Plan your perfect vacation with our travel agency. Choose<br> Choose among hundreds of all-inclusive offers!</p>
-            </div>
-            <div></div>
-            <div class="flex flex-space">
-                <div class="sec3__card box_shadow">
-                    <img src="images/madrid.svg" alt="">
-                    <div>
-                        <div class="flex flex-space">
-                            <h4>Rome, Italty</h4>
-                            <span class="orange flex">$5,42k</span>
-                        </div>
-                        
-                        <div class="flex flex-space">
-                            <span class="flex"><img src="images/arrow-icon.svg" alt="">&nbsp; 10 Days Trip</span>
-                            <span class="flex"><img src="images/star-icon.svg" alt="">&nbsp; 4.8</span>
-                        </div>
-                    </div>
-                </div>
-                <div class="sec3__card box_shadow">
-                    <img src="images/firenze.svg" alt="">
-                    <div>
-                        <div class="flex flex-space">
-                            <h4>London, UK</h4>
-                            <span class="orange flex">$2,42k</span>
-                        </div>
-                        
-                        <div class="flex flex-space">
-                            <span class="flex"><img src="images/arrow-icon.svg" alt="">&nbsp; 7 Days Trip</span>
-                            <span class="flex"><img src="images/star-icon.svg" alt="">&nbsp; 4.7</span>
-                        </div>
-                    </div>
-                </div>
-                <div class="sec3__card box_shadow">
-                    <img src="images/paris.svg" alt="">
-                    <div>
-                        <div class="flex flex-space">
-                            <h4>Osaka, Japan</h4>
-                            <span class="orange flex">$5,42k</span>
-                        </div>
-                        
-                        <div class="flex flex-space">
-                            <span class="flex"><img src="images/arrow-icon.svg" alt="">&nbsp; 10 Days Trip</span>
-                            <span class="flex"><img src="images/star-icon.svg" alt="">&nbsp; 4.8</span>
-                        </div>
-                    </div>
-                </div>
-            </div>
-        </section>
-        <section id="sec5" class="flex flex-space">
-            <div>
-                <h2>What people say <span class="orange">about us</span></h2>
-                <p>Our Clients send us bunch of smilies with our services and we love them.</p>
-            </div>
-            <div></div>
-        </section>
-        <section id="sec6">
-            <div>
-                <h2>Get update with <span class="orange">lastest blog</span></h2>
-            </div>
-            <div></div>
-            <div class="flex flex-space">
-                <div class="">
-                    <img src="images/Amazin.svg" alt="">
-                    <div>
-                        <h5>The Amazing Difference a <br> Year of Travelling.</h5>
-                        <span>July 27, 2021</span>
-                    </div>
-                </div>
-                <div class="">
-                    <img src="images/yourself.svg" alt="">
-                    <div>
-                        <h5>Travel for enough, you <br> meet yourself.</h5>
-                        <span>July 27, 2021</span>
-                    </div>
-                </div>
-                <div class="">
-                    <img src="images/africa.svg" alt="">
-                    <div>
-                        <h5>How to Save Money While <br> Visiting Africa.</h5>
-                        <span>July 27, 2021</span>
-                    </div>
-                </div>
-                <div class="">
-                    <img src="images/reflections.svg" alt="">
-                    <div>
-                        <h5>Reflections on 5 Months of <br> Travel: Time to Hang.</h5>
-                        <span>July 27, 2021</span>
-                    </div>
-                </div>
-            </div>
-        </section>
-    </main>
-
-    <footer id="footer"></footer>
+    <script>
+        document.body.onload = document.getElementById("rota").style.transform = "rotate(0deg)";
+    </script>
 </body>
 </html>

@@ -7,14 +7,24 @@ Description: Default CSS
 Version: 2.0
 */
 
+body {
+    perspective: 1000px;
+}
 
-
-
+#rota {
+    position: absolute;
+    top: 0;
+    left: 0;
+    transform: rotateY(90deg);
+    transform-origin: 0%;
+    transform-style: preserve-3d;
+    transition-duration: 2s;
+}
 
 
 /*** RESET ***/
 body, header, nav, main, aside, footer, section, h1, h2, h3, h4, h5,
-h6, hr, p, pre, blockquote, dl, dd, fieldset, figure, form, menu,
+h6, p, pre, blockquote, dl, dd, fieldset, figure, form, menu,
 ol, ul, table, thead, tbody, tfoot, tr, input, button, legend {
     box-sizing: border-box;
     margin: 0;
@@ -31,7 +41,7 @@ ol, ul, table, thead, tbody, tfoot, tr, input, button, legend {
     --break-notebook: ;
     --break-desktop: ;
     --break-TV: ;
-
+    
     
     --box-margin: ;
     --box-radius: 5px;
